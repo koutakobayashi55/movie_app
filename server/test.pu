@@ -1,0 +1,10 @@
+@startuml SequenceDiagram
+title シーケンス図
+
+participant Alice
+participant Bob
+
+Alice -> Bob: リクエスト
+Bob --> Alice: レスポンス
+
+@enduml
